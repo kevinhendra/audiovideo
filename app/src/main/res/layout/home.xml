@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="Coldplay - Fix You"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/tombolPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="102dp"
+        android:layout_toStartOf="@+id/tombolPause"
+        android:layout_toLeftOf="@+id/tombolPause"
+        android:text="play" />
+
+    <Button
+        android:id="@+id/tombolStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tombolPause"
+        android:layout_toLeftOf="@+id/tombolPause"
+        android:layout_toEndOf="@+id/tombolPause"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/tombolPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tombolPlay"
+        android:layout_centerHorizontal="true"
+        android:text="PAUSE" />
+
+    <TextView
+        android:id="@id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp"
+        android:text="Latihan Audio"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>
